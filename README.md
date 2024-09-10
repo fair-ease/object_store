@@ -16,8 +16,6 @@ docker compose up
 
 This is based on the [Apache Iceberg Spark Quickstart](https://iceberg.apache.org/spark-quickstart/)
 
-Upload the demo "" uses the Apache Iceberg Spark Quick start to load the GLODAP 2023 dataset into an Apache Iceberg Data Lakehouse table.
-
 The Quick start `docker-compose.yml` file can be used to spinup 4 containers on a Docker Instance.
 This consists of:
 - A Minio object store container
