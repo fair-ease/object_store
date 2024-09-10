@@ -1,14 +1,14 @@
-#Object store proof of concept demonstations
+# Object store proof of concept demonstations
 
 
-##CSV to geoparquet
+## CSV to geoparquet
 
 The notebook `glodap_to_geoparquet.ipynb` demonstrates converting a CSV download of the GLODAPv2.2023 Merged Master file data to geoparquet 
 
 To recreate the environment on a system  with docker installed  e.g. linux or WSL(windows subystem for linux) with docker community edition
 ```console
-cd glodap_to_geoparquet`
-docker compose build`
+cd glodap_to_geoparquet
+docker compose build
 docker compose up
 ``` 
 
