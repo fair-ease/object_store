@@ -49,8 +49,8 @@ Pyspark and spark sql is used to create the GlODAP table.
 
 You can also browse to the local Minio container object store http://localhost:9000 and login using the user and password in the compose file and see the "warehouse" bucket with any Iceberg table files you create. 
 
+## ERDDAP Trino and Iceberg Integration
+We have further enhanced the demo by providing an example of publishing the GLODAP dataset via ERDDAP using the Trino JDBC 
+connector to show how ERDDAP and other systems can use Legacy data access protocols to publish tabular data from a Data lakehouse on an Object Store.
 
-We intend to further enhance the demo by providing and an example of publishing the GLODAP dataset via ERDDAP using  the Trino JDBC 
-connector to show how ERDDAP and other systems can use Legacy data access protocols to publish tabular data from a Data lakehouse on an Object Store 
-
-
+The demonstrator is available here in our separate [erddap-trino-iceberg repo](https://github.com/fair-ease/erddap-trino-iceberg)
